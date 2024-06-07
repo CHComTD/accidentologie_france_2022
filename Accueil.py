@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.image("https://www.shutterstock.com/image-vector/student-group-backpacks-crossing-road-260nw-2232318049.jpg")
+
 # Title of the application
 st.title("Présentation de l'application")
 
