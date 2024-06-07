@@ -2,6 +2,9 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import plotly.express as px
+
+
+
 # Load the dataset
 caracteristiques = pd.read_csv("carcteristiques-2022.csv", sep=';')
 lieux = pd.read_csv("lieux-2022.csv", sep=';',low_memory=False)
